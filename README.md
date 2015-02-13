@@ -62,5 +62,5 @@ HostName chsxedwhdc004
 IdentityFile ~/.ssh/id_rsa
 
 
-** the above entries should be on a seperate line each
+** the above tab seperated entries  should be on a seperate line each
 
