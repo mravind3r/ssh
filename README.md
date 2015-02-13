@@ -53,6 +53,7 @@ Host prod-dev-node
 b) from command prompt --> ssh prod-dev-node
 -- should connect without asking for password 
 
+
  you can add many entries in the config file provided the public keys are copied onto the right servers
 eg:
 Host qa
