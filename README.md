@@ -46,9 +46,9 @@ a) create .ssh/config  file
 in that add the following
 
 Host prod-dev-node
-        User a-rmandal
-        HostName chsxedwhdc002
-        IdentityFile ~/.ssh/id_rsa
+User a-rmandal
+HostName chsxedwhdc002
+IdentityFile ~/.ssh/id_rsa
 
 b) from command prompt --> ssh prod-dev-node
 -- should connect without asking for password 
@@ -57,9 +57,9 @@ b) from command prompt --> ssh prod-dev-node
  you can add many entries in the config file provided the public keys are copied onto the right servers
 eg:
 Host qa
-        User a-rmandal
-        HostName chsxedwhdc004
-        IdentityFile ~/.ssh/id_rsa
+User a-rmandal
+HostName chsxedwhdc004
+IdentityFile ~/.ssh/id_rsa
 
 
 ** the above entries should be on a seperate line each
